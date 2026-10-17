@@ -33,7 +33,7 @@ import com.vaadin.flow.server.VaadinSession;
 import com.vaadin.flow.shared.Registration;
 
 @Tag("idle-notification")
-@JsModule("./idle-notification.js")
+@JsModule("./idle-notification.ts")
 @CssImport("./idle-notification.css")
 @CssImport(value = "./vaadin-dialog-overlay.css", themeFor = "vaadin-dialog-overlay")
 @Uses(Dialog.class)
